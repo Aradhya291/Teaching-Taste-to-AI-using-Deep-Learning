@@ -1,41 +1,32 @@
 # Teaching Taste to AI using Deep Learning
 
-## 📌 Project Overview
-This project focuses on predicting the taste profile of chemical compounds using deep learning. An Artificial Neural Network (ANN) model is trained on molecular features extracted from chemical structures to classify taste categories.
+## Overview
+This project explores how deep learning can be used to predict the taste of chemical compounds. The idea is to train a model that can understand molecular structures and classify them into taste categories.
 
----
+## What I Did
+- Extracted molecular features using RDKit  
+- Cleaned and prepared the dataset (4000+ molecules)  
+- Built and trained an Artificial Neural Network (ANN)  
+- Tuned the model to improve performance  
+- Evaluated results on validation data  
 
-## 🚀 Features
-- Molecular feature extraction using RDKit
-- Data preprocessing and feature engineering
-- ANN-based taste classification model
-- Optimized architecture for improved performance
-- Trained on 4000+ molecular structures
+## Results
+The model achieved:
+- 93% training accuracy  
+- 88% validation accuracy  
 
----
+Performance improved significantly after optimizing the feature set and network architecture.
 
-## 🛠️ Technologies Used
-- Python
-- RDKit
-- NumPy, Pandas
-- TensorFlow / Keras
+## Tech Stack
+Python, RDKit, NumPy, Pandas, TensorFlow/Keras
 
----
+## How It Works
+The model takes a chemical structure as input, converts it into numerical features, and then predicts its taste category using a trained neural network.
 
-## 📊 Results
-- Training Accuracy: **93%**
-- Validation Accuracy: **88%**
-- Improved model performance by ~50% through feature engineering and architecture tuning
+## Future Improvements
+- Deploy as a web app  
+- Try advanced models like GNNs  
+- Improve interpretability of predictions  
 
----
-
-## 🔄 Workflow
-1. Input molecular structure  
-2. Extract features using RDKit  
-3. Preprocess data  
-4. Train ANN model  
-5. Predict taste category  
-
----
-
-## 📂 Repository Structure
+## Repository
+https://github.com/Aradhya291/Teaching-Taste-to-AI-using-Deep-Learning
